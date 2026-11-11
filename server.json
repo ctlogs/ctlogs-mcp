@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.ctlogs/ctlogs",
+  "title": "ctlogs.dev — Certificate Transparency search",
+  "description": "Search Certificate Transparency logs: subdomains, TLS certificates, organizations, CAs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ctlogs.dev/",
+  "remotes": [{ "type": "streamable-http", "url": "https://api.ctlogs.dev/mcp" }]
+}
