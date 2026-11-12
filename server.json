@@ -5,5 +5,7 @@
   "description": "Search Certificate Transparency logs: subdomains, TLS certificates, organizations, CAs.",
   "version": "1.1.0",
   "websiteUrl": "https://ctlogs.dev/",
+  "repository": { "url": "https://github.com/ctlogs/ctlogs-mcp", "source": "github" },
+  "icons": [{ "src": "https://ctlogs.dev/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }],
   "remotes": [{ "type": "streamable-http", "url": "https://mcp.ctlogs.dev/mcp" }]
 }
