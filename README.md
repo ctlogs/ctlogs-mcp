@@ -122,7 +122,7 @@ returns `next_cursor` for the next call.
 
 ## Documentation and contact
 
-- MCP server: <https://api.ctlogs.dev/#mcp>
+- MCP server: <https://ctlogs.dev/mcp>
 - API reference: <https://api.ctlogs.dev/>
 - Keys and plans: <https://api.ctlogs.dev/#auth>
 - Contact: <contact@ctlogs.dev>
