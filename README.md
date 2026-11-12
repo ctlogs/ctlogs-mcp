@@ -10,7 +10,7 @@ The server is hosted. There is nothing to install or run; point a client at
 https://mcp.ctlogs.dev/mcp
 ```
 
-(Streamable HTTP). It needs no key and no sign-in.
+(Streamable HTTP). It works at once without a key or an account.
 
 ## Tools
 
@@ -41,13 +41,12 @@ claude mcp add --transport http ctlogs https://mcp.ctlogs.dev/mcp --header "Auth
 ### claude.ai
 
 Under Customize › Connectors, choose Add, then Add custom connector, and enter
-the URL; choose no sign-in. On Team and Enterprise plans an Owner adds it under
-Organization settings › Connectors.
+the URL; under Authentication choose *Sign in when needed*. On Team and
+Enterprise plans an Owner adds it under Organization settings › Connectors.
 
 ### ChatGPT
 
-Under Plugins, choose **+**, then Add custom MCP server, and enter the URL; the
-server asks for no sign-in.
+Under Plugins, choose **+**, then Add custom MCP server, and enter the URL.
 
 ### Cursor
 
@@ -99,6 +98,18 @@ With a key:
   }
 }
 ```
+
+## Sign in
+
+The server works without an account up to the anonymous limits. When a call
+goes past them — the hourly allowance is used up, or a list is paged further
+than an anonymous caller may — an assistant that supports sign-in asks you to
+sign in: choose GitHub, Google or an e-mail link, allow the connection, and the
+assistant repeats the call on your account. A new account gets a free API key
+with 10,000 credits a month for testing and non-commercial use. Connected
+assistants are listed on the account page, where each can be disconnected.
+Clients where you set request headers yourself can send a key instead, as shown
+above.
 
 ## Example prompts
 
