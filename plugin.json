@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ctlogs",
+  "version": "1.1.0",
+  "description": "Search Certificate Transparency logs: a domain's subdomains, its TLS certificates, and certificates issued to an organization.",
+  "author": { "name": "ctlogs.dev", "url": "https://ctlogs.dev/" },
+  "homepage": "https://ctlogs.dev/mcp",
+  "repository": "https://github.com/ctlogs/ctlogs-mcp",
+  "license": "MIT",
+  "keywords": ["certificate-transparency", "tls", "ssl", "subdomains", "security", "osint"]
+}
