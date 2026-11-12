@@ -7,7 +7,7 @@ AI assistant or agent — subdomains, TLS certificates, organizations, CAs.
 The server is hosted. There is nothing to install or run; point a client at
 
 ```
-https://api.ctlogs.dev/mcp
+https://mcp.ctlogs.dev/mcp
 ```
 
 (Streamable HTTP). It needs no key and no sign-in.
@@ -29,13 +29,13 @@ All five tools are read-only.
 ### Claude Code
 
 ```bash
-claude mcp add --transport http ctlogs https://api.ctlogs.dev/mcp
+claude mcp add --transport http ctlogs https://mcp.ctlogs.dev/mcp
 ```
 
 With a key:
 
 ```bash
-claude mcp add --transport http ctlogs https://api.ctlogs.dev/mcp --header "Authorization: Bearer YOUR_KEY"
+claude mcp add --transport http ctlogs https://mcp.ctlogs.dev/mcp --header "Authorization: Bearer YOUR_KEY"
 ```
 
 ### claude.ai
@@ -56,7 +56,7 @@ In `~/.cursor/mcp.json`, or `.cursor/mcp.json` in a project:
 ```json
 {
   "mcpServers": {
-    "ctlogs": { "url": "https://api.ctlogs.dev/mcp" }
+    "ctlogs": { "url": "https://mcp.ctlogs.dev/mcp" }
   }
 }
 ```
@@ -67,7 +67,7 @@ With a key:
 {
   "mcpServers": {
     "ctlogs": {
-      "url": "https://api.ctlogs.dev/mcp",
+      "url": "https://mcp.ctlogs.dev/mcp",
       "headers": { "Authorization": "Bearer YOUR_KEY" }
     }
   }
@@ -81,7 +81,7 @@ In `.vscode/mcp.json`:
 ```json
 {
   "servers": {
-    "ctlogs": { "type": "http", "url": "https://api.ctlogs.dev/mcp" }
+    "ctlogs": { "type": "http", "url": "https://mcp.ctlogs.dev/mcp" }
   }
 }
 ```
@@ -93,7 +93,7 @@ With a key:
   "servers": {
     "ctlogs": {
       "type": "http",
-      "url": "https://api.ctlogs.dev/mcp",
+      "url": "https://mcp.ctlogs.dev/mcp",
       "headers": { "Authorization": "Bearer YOUR_KEY" }
     }
   }

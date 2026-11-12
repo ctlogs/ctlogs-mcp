@@ -5,5 +5,5 @@
   "description": "Search Certificate Transparency logs: subdomains, TLS certificates, organizations, CAs.",
   "version": "1.0.0",
   "websiteUrl": "https://ctlogs.dev/",
-  "remotes": [{ "type": "streamable-http", "url": "https://api.ctlogs.dev/mcp" }]
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.ctlogs.dev/mcp" }]
 }
